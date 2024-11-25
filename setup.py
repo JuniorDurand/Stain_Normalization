@@ -11,7 +11,7 @@ setup(
     install_requires=[                       
         "numpy",
         "patool",
-        "spams"
+        "spams-bin"
     ],
     python_requires=">=3.5",
 )
