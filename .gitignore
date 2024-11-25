@@ -1,0 +1,6 @@
+
+build/
+
+src/stain_normalization.egg-info/
+
+dist/
