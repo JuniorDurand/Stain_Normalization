@@ -9,7 +9,7 @@ from __future__ import division
 import cv2 as cv
 import numpy as np
 import stain_utils as ut
-
+from normalizer import NormalizerInterface 
 
 ### Some functions ###
 
@@ -61,7 +61,7 @@ def get_mean_std(I):
 
 ### Main class ###
 
-class Normalizer(object):
+class Normalizer(NormalizerInterface):
     """
     A stain normalization object
     """

@@ -15,6 +15,7 @@ from __future__ import division
 import spams
 import numpy as np
 import stain_utils as ut
+from normalizer import NormalizerInterface 
 
 
 def get_stain_matrix(I, threshold=0.8, lamda=0.1):
@@ -39,7 +40,7 @@ def get_stain_matrix(I, threshold=0.8, lamda=0.1):
 
 ###
 
-class Normalizer(object):
+class Normalizer(NormalizerInterface):
     """
     A stain normalization object
     """

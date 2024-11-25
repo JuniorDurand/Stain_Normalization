@@ -14,6 +14,7 @@ from __future__ import division
 
 import numpy as np
 import stain_utils as ut
+from normalizer import NormalizerInterface 
 
 
 def get_stain_matrix(I, beta=0.15, alpha=1):
@@ -45,7 +46,7 @@ def get_stain_matrix(I, beta=0.15, alpha=1):
 
 ###
 
-class Normalizer(object):
+class Normalizer(NormalizerInterface):
     """
     A stain normalization object
     """
