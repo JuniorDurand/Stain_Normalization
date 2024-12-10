@@ -8,8 +8,8 @@ from __future__ import division
 
 import cv2 as cv
 import numpy as np
-import stain_utils as ut
-from normalizer import NormalizerInterface 
+from stain_normalization import stain_utils as ut
+from stain_normalization.normalizer import NormalizerInterface
 
 ### Some functions ###
 

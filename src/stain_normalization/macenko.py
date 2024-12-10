@@ -13,8 +13,8 @@ Use with python via e.g https://anaconda.org/conda-forge/python-spams
 from __future__ import division
 
 import numpy as np
-import stain_utils as ut
-from normalizer import NormalizerInterface 
+from stain_normalization import stain_utils as ut
+from stain_normalization.normalizer import NormalizerInterface
 
 
 def get_stain_matrix(I, beta=0.15, alpha=1):
