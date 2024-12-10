@@ -11,7 +11,8 @@ setup(
     install_requires=[                       
         "numpy",
         "patool",
-        "spams-bin"
+        "spams-bin",
+        "matplotlib"
     ],
     python_requires=">=3.5",
 )
